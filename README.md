@@ -8,13 +8,13 @@ Welcome to the **Five Guys Burger** website repository! This project showcases a
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Structure](#structure-)
-- [Technologies Used](#technologies-used-)
-- [How to Set Up](#how-to-set-up-)
-- [Deployment](#deployment-)
-- [Features](#features-)
-- [Notes](#notes-)
+- [Overview]
+- [Structure]
+- [Technologies Used]
+- [How to Set Up]
+- [Deployment]
+- [Features]
+- [Notes]
 
 ---
 
