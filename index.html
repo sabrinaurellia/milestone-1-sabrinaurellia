@@ -3,102 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Five Guys Burger</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+    <title>Company Profile - Five Guys</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Headbar -->
     <header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="assets/images/logo.png" alt="Five Guys Logo">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Locations</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact</a></li>
+        <div class="headbar-container">
+            <div class="logo-container">
+                <img src="assets/images/logo.png" alt="Five Guys Logo" class="logo">
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#careers">Careers</a></li>
                 </ul>
             </nav>
+            <div class="action-buttons">
+                <a href="#" class="btn order-now">Order Now</a>
+            </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Welcome to Five Guys Burger</h1>
-        <p>Freshly Made Burgers and Fries Since 1986</p>
-        <a href="#" class="btn">Order Now</a>
-    </section>
-
-    <!-- About Section -->
-    <section class="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Five Guys is a family-run burger joint dedicated to serving freshly made burgers and fries with the highest quality ingredients. Established in 1986, we are proud to deliver satisfaction in every bite.</p>
-        </div>
-    </section>
-
-    <!-- Menu Section -->
-    <section class="menu">
-        <div class="container">
-            <h2>Our Menu</h2>
-            <div class="menu-items">
-                <article class="menu-item">
-                    <img src="assets/images/bg1.jpg" alt="Burger">
-                    <h3>Classic Burger</h3>
-                    <p>A timeless burger crafted with premium beef and fresh toppings.</p>
-                </article>
-                <article class="menu-item">
-                    <img src="assets/images/bg1.jpg" alt="Fries">
-                    <h3>Crispy Fries</h3>
-                    <p>Perfectly golden fries seasoned with a special blend of spices.</p>
-                </article>
-                <article class="menu-item">
-                    <img src="assets/images/bg1.jpg" alt="Milkshake">
-                    <h3>Handcrafted Milkshake</h3>
-                    <p>A creamy treat made fresh to order in various flavors.</p>
-                </article>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Welcome to Five Guys</h1>
+            <p>Handcrafted Burgers & Fries since 1986</p>
+            <a href="#" class="btn">Order Now</a>
+        </section>
+        
+        <!-- Other Sections -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Five Guys has been a family-run burger joint since 1986. We serve freshly prepared burgers and fries that are made to order.</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Locations Section -->
-    <section class="locations">
-        <div class="container">
-            <h2>Our Locations</h2>
-            <div class="location-list">
-                <article class="location-item">
-                    <img src="assets/images/location1.jpg" alt="Location 1">
-                    <p>New York</p>
-                </article>
-                <article class="location-item">
-                    <img src="assets/images/location2.jpg" alt="Location 2">
-                    <p>Los Angeles</p>
-                </article>
-                <article class="location-item">
-                    <img src="assets/images/location3.jpg" alt="Location 3">
-                    <p>Chicago</p>
-                </article>
-                <article class="location-item">
-                    <img src="assets/images/location4.jpg" alt="Location 4">
-                    <p>Miami</p>
-                </article>
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <img src="assets/images/burger.jpg" alt="Burger">
+                        <p>Classic Burger</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="assets/images/fries.jpg" alt="Fries">
+                        <p>Crispy Fries</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="assets/images/milkshake.jpg" alt="Milkshake">
+                        <p>Handcrafted Milkshake</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Careers Section -->
-    <section class="careers">
-        <div class="container">
-            <h2>Join Our Team</h2>
-            <p>Explore exciting career opportunities at Five Guys. Join our family today and grow with us!</p>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
     <footer>
         <div class="container">
             <p>&copy; 2024 Five Guys Enterprises, LLC</p>
